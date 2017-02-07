@@ -78,7 +78,7 @@ body {
 
 .main-content {
   margin: 0 auto;
-  max-width: 1200px;  
+  max-width: 1000px;  
   min-width: 300px;
 }
 
@@ -113,7 +113,7 @@ a:focus {
 
 hr {
   margin: 1rem 0;
-  border-width: 1px 0 0 0;
+  border-width: 4px 0 0 0;
   border-style: solid;
   border-color: #ecf0f1;
 }
@@ -166,6 +166,14 @@ h3::before
   color: #c1cacc;
   display: inline-block;
   -webkit-font-smoothing: antialiased;  
+}
+
+blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #ecf0f1;
 }
 
 .main-content h1:first-of-type {
